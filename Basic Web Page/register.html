@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <marquee behavior="alternate"  color=Green bgcolor= yellow direction="left"  scrollamount="10"
+    onmouseover="stop()" onmouseout="start()">Hello Welcome To Our Site
+        <img src="" alt="">
+    </marquee>
+    <form method=" get" action="">
+        <table bgcolor="aqua" border="2px" align="center" width="500px">
+            <tbody>
+
+                <tr>
+                    <td> User Name</td>
+                    <td><input type="text" name="unm" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea rows="6" cols="10" name="addr">
+                        Hello, 
+                    </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Password</td>
+                    <td><input type="Password" name="pwd" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Email Id</td>
+                    <td><input type="Email" name="mail id" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Date of Birth </td>
+                    <td><input type="Date" name="date" /></td>
+                </tr>
+
+                <tr>
+                    <td> Time </td>
+                    <td><input type="Time" name="Time" /></td>
+                </tr>
+
+                <tr>
+                    <td> Date / Time </td>
+                    <td><input type="datetime-local" /></td>
+                </tr>
+
+                <tr>
+                    <td> Gender </td>
+                    <td>
+                        <input type="radio" />Male
+                        <input type="radio" />Female
+                        <input type="radio" />Others
+
+                        <input type="radio" name="gen" />M
+                        <input type="radio" name="gen" />F
+                        <input type="radio" name="gen" />O
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Hobbies </td>
+                    <td>
+                        <input type="checkbox" />Reading
+                        <input type="checkbox" />Playing
+                        <input type="checkbox" />Singing
+
+                        <input type="checkbox" name="chk1" />Reading
+                        <input type="checkbox" name="chk2" />Playing
+                        <input type="checkbox" name="chk3" />Singing
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Qualifications </td>
+                    <td>
+                        <select>
+                            <option disabled selected value="~~Select~~"></option>
+                            <option value="BTech"></option>
+                            <option disabled value="MTech"></option>
+                            <option value="MBA"></option>
+                            <option value="BBA"></option>
+                            <option selected value="BCA"></option>
+                            <option value="MCA"></option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> City Name </td>
+                    <td>
+                        <select>
+                            <option disabled selected value="~~Select~~"></option>
+                            <optgroup label="UP">
+                                <option value="Kanpur"></option>
+                                <option value="Ghaziabad"></option>
+                                <option value="Noida"></option>
+                            </optgroup>
+                            <optgroup label="MP">
+                                <option value="Agra"></option>
+                                <option selected value="Bhopal"></option>
+                                <option value="Indore"></option>
+                            </optgroup>
+                        </select>
+
+
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> University Name </td>
+                    <td>
+                        <input type="text" list="mylist" name="UniNm">
+                        <datalist id="mylist">
+                            <option value="AKTU"></option>
+                            <option value="CCSU"></option>
+                            <option value="LPU"></option>
+                            <option value="CSJM"></option>
+                            <option value="KIIT"></option>
+                            <option value="DU"></option>
+                            <option value="IPU"></option>
+                            <option value="JNU"></option>
+                        </datalist>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Color </td>
+                    <td>
+                        <input type="color" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Search </td>
+                    <td>
+                        <input type="text" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Percentage </td>
+                    <td>
+                        <input type="number" step="0.01" name="per" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Range </td>
+                    <td>
+                        <input type="range" name="range" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Hidden value </td>
+                    <td>
+                        <input type="hidden" value="Emp1001" name="hidd" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Upload Profile Picture </td>
+                    <td>
+                        <input type="file" multiple accept=".jpg ,.gif" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" />
+                        <input type="reset" />
+                        <input type="button" value="Button" />
+                        <input type="image" height="100px" width="70px" src="" />
+
+                        <button type="reset">&#128512;</button>
+                    </td>
+
+                </tr>
+
+
+
+
+
+            </tbody>
+        </table>
+        </form>
+</body>
+
+</html>
